@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">4sp</dimen>
+    <dimen name="app_bar_height">150sp</dimen>
+    <dimen name="app_bar_height_small">50sp</dimen>
+    <dimen name="choice_bar_height">200sp</dimen>
+    <dimen name="item_width">500sp</dimen>
+    <dimen name="text_margin">5sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16sp</dimen>
+    <dimen name="activity_vertical_margin">16sp</dimen>
+    <dimen name="appbar_padding_top">8sp</dimen>
+
+    <!-- MyDimens !! -->
+    <dimen name="card_corner_radius">10sp</dimen>
+
+    <dimen name="text_view_min_height">24sp</dimen>
+    <dimen name="text_view_text_size">24sp</dimen>
+    <dimen name="textview_max_width">100sp</dimen>
+
+    <dimen name="text_view_bold_text_size">16sp</dimen>
+    <dimen name="textview_padding_start">0sp</dimen>
+    <dimen name="textview_padding_end">10sp</dimen>
+
+    <dimen name="spinner_min_height">48sp</dimen>
+    <dimen name="spinner_text_size">14sp</dimen>
+
+    <dimen name="edittext_min_height">60sp</dimen>
+    <dimen name="edittext_text_size">26sp</dimen>
+
+    <dimen name="button_text_size">16sp</dimen>
+
+    <dimen name="icon_min_size">100sp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15sp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0sp</dimen>
+
+    <!--
+    Padding for a vertical linear layout where one textview contains a drawable 50x50 and the others don't
+    -->
+    <dimen name="no_icon_text_view_padding">50sp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5sp</dimen>
+
+    <dimen name="card_elevation">40sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+</resources>

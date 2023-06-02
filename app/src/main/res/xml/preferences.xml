@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="time_control"
+        android:title="Time Control" >
+
+        <Preference
+            android:key="starting_time"
+            android:title="Starting Time"
+            android:fragment="com.example.mychessclock.MySettingsFragment"/>
+
+        <Preference
+            android:key="increment"
+            android:title="Increment"/>
+
+        <Preference
+            android:key="presets"
+            android:title="Presets"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

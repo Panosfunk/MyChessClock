@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyChessClock</string>
+    <string name="settings_string">Settings</string>
+    <string name="ok">OK</string>
+</resources>

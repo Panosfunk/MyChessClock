@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    FAILED ACTION BAR ATTEMPT-->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/actionBarRetro</item>
+    </style>
+
+    <!--    CONSTRAIN LAYOUT-->
+    <style name="ConstrainLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/actionBarVintage</item>
+        <item name="android:padding">@dimen/text_margin</item>
+    </style>
+
+    <!--    CARDVIEW-->
+    <style name="CardView.EntryField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">@dimen/text_margin</item>
+        <item name="backgroundColor">@color/actionBarVintage</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <!--    LINEAR LAYOUT-->
+    <style name="VerticalLinearLayout">
+        <item name="android:background">@color/textViewVintage</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/text_margin</item>
+    </style>
+
+    <style name="HorizontalLinearLayout">
+        <item name="android:background">@color/textViewVintage</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/text_margin</item>
+    </style>
+
+    <!--    TEXTVIEW-->
+    <style name="EntryFieldTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">300dp</item>
+
+        <item name="android:background">@color/textViewVintage</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">@dimen/text_view_min_height</item>
+        <item name="maxWidth">@dimen/textview_max_width</item>
+        <item name="android:textColor">#616161</item>
+    </style>
+
+    <style name="EntryFieldTextView.Grid">
+        <item name="maxHeight">100dp</item>
+        <item name="minHeight">100dp</item>
+    </style>
+
+    <style name="EntryFieldTextView.Tote">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <!--    TEXTVIEW BOLD-->
+    <style name="EntryFieldTextView.Bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/textview_padding_start</item>
+        <item name="android:paddingEnd">@dimen/textview_padding_end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_view_bold_text_size</item>
+    </style>
+
+    <!--    TEXTVIEW ON SELECTED ACTIVITY-->
+    <style name="EntryFieldTextView.Selected">
+        <item name="android:textSize">18sp</item>
+        <item name="backgroundTint">@color/textViewVintage</item>
+        <item name="android:textColor">#424242</item>
+    </style>
+
+    <!--    TEXTVIEW SELECTED BOLD-->
+    <style name="EntryFieldTextView.Selected.Bold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/spinner_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:minHeight">@dimen/spinner_min_height</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/textViewHungary</item>
+        <item name="android:textColor">@color/textViewHungary</item>
+        <item name="android:backgroundTint">@color/textViewHungary</item>
+        <item name="android:minHeight">@dimen/edittext_min_height</item>
+        <item name="minHeight">@dimen/edittext_min_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:text"></item>
+    </style>
+
+    <!--    BUTTON ON SELECTED ACTIVITY-->
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:backgroundTint">@color/buttonVintage</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="Divider.Horizontal" parent="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#616161</item>
+
+    </style>
+
+    <style name="Divider.Vertical" parent="Divider">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#303030</item>
+    </style>
+
+    <style name="DatePicker" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/actionBarVintage</item>
+        <item name="color">@color/actionBarVintage</item>
+        <item name="android:colorBackground">@color/actionBarVintage</item>
+
+    </style>
+
+    <style name="Widget.PickAndPack.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style>
+
+    <style name="Widget.PickAndPack.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <!--    <style name="ActionButtonStyle" parent="Widget.AppCompat.ActionButton">-->
+    <!--        <item name="android:minWidth">0dip</item>-->
+    <!--        <item name="android:paddingStart">8dip</item>-->
+    <!--        <item name="android:paddingEnd">8dip</item>-->
+    <!--    </style>-->
+
+</resources>

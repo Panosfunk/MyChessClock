@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/ConstrainLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardView.EntryField"
+        android:id="@+id/presets_popup_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/presets_ll"
+                style="@style/VerticalLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@mipmap/ic_hline"
+                android:showDividers="middle"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/one_plus_zero"
+                    android:text="1|0"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/one_plus_one"
+                    android:text="1|1"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/three_plus_zero"
+                    android:text="3|0"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/three_plus_two"
+                    android:text="3|2"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/five_plus_zero"
+                    android:text="5|0"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/five_plus_three"
+                    android:text="5|3"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/fivevplus_five"
+                    android:text="5|5"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/ten_plus_zero"
+                    android:text="10|0"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/fifteen_plus_zero"
+                    android:text="15|0"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    style="@style/EntryFieldTextView"
+                    android:id="@+id/fifteen_plus_ten"
+                    android:text="15|10"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
